@@ -22,7 +22,7 @@ from .MessageProtocol import MessageType, MessageDirection, RequestVotesResults,
 address_book_fname = 'address_book.json'
 total_nodes = 11
 local_ip = '127.0.0.1'
-start_port = 5557
+start_port = 5550
 
 class RaftNode(threading.Thread):
     def __init__(self, config, name, role='follower', verbose=True):
